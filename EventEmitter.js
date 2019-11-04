@@ -1,3 +1,3 @@
-let EventEmitter = () => { throw new Error }
+const EventEmitter = () => { throw new Error }
 
-export default EventEmitter
+module.exports = {EventEmitter: EventEmitter}

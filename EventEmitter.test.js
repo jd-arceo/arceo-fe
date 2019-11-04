@@ -1,4 +1,4 @@
-const EventEmitter = require('./EventEmitter')
+const { EventEmitter } = require('./EventEmitter')
 
 let emitter = new EventEmitter()
 
@@ -75,7 +75,7 @@ let logProduct5 = (a, b, c, d, e) => console.log(1, 2, 3, 4, 5)
  */
 
 // console.log('---- Fourth set of tests ----')
-// emitter.emit('testOnce', respondsToMsg)
+// emitter.on('testOnce', respondsToMsg)
 // emitter.once('testOnce', capitalizesMsg)
 // emitter.emit('testOnce', 'should see two')
 // emitter.emit('testOnce', 'should see one')
