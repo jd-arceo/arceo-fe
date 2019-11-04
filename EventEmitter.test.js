@@ -64,6 +64,8 @@ let logProduct5 = (a, b, c, d, e) => console.log(1, 2, 3, 4, 5)
 // emitter.emit('productTest', 1, 2, 3, 4, 5) //logs 120
 // emitter.removeEvent('sumTest')
 // emitter.removeEvent('productTest')
+// emitter.emit('sumTest', 999, 999)
+// emitter.emit('productTest', 555, 555)
 
 /**
  * fourth set
