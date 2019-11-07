@@ -1,3 +1,5 @@
-const EventEmitter = () => { throw new Error }
+class EventEmitter {
+  // add code here :)
+}
 
-module.exports = {EventEmitter: EventEmitter}
+module.exports = { EventEmitter: EventEmitter };
